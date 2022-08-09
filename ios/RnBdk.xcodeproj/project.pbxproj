@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5E555C0D2413F4C50049A1A2 /* RnBdk.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RnBdk.m */; };
-		F4FF95D7245B92E800C19C63 /*  RnBdk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF95D6245B92E800C19C63 /*  RnBdk.swift */; };
+		9A82234828A2B11C00D011E8 /* BitcoinDevKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A82234728A2B11C00D011E8 /* BitcoinDevKit.swift */; };
+		F4FF95D7245B92E800C19C63 /* RnBdk.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4FF95D6245B92E800C19C63 /* RnBdk.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,9 +25,10 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRnBdk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRnBdk.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A82234728A2B11C00D011E8 /* BitcoinDevKit.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = BitcoinDevKit.swift; sourceTree = "<group>"; tabWidth = 2; };
 		B3E7B5891CC2AC0600A0062D /* RnBdk.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RnBdk.m; sourceTree = "<group>"; };
 		F4FF95D5245B92E700C19C63 /* RnBdk-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RnBdk-Bridging-Header.h"; sourceTree = "<group>"; };
-		F4FF95D6245B92E800C19C63 /* RnBdk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RnBdk.swift; sourceTree = "<group>"; };
+		F4FF95D6245B92E800C19C63 /* RnBdk.swift */ = {isa = PBXFileReference; indentWidth = 2; lastKnownFileType = sourcecode.swift; path = RnBdk.swift; sourceTree = "<group>"; tabWidth = 2; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				9A82234728A2B11C00D011E8 /* BitcoinDevKit.swift */,
 				F4FF95D6245B92E800C19C63 /* RnBdk.swift */,
 				B3E7B5891CC2AC0600A0062D /* RnBdk.m */,
 				F4FF95D5245B92E700C19C63 /* RnBdk-Bridging-Header.h */,
@@ -117,7 +119,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F4FF95D7245B92E800C19C63 /* RnBdk.swift in Sources */,
-				B3E7B58A1CC2AC0600A0062D /* RnBdk.m in Sources */,
+				9A82234828A2B11C00D011E8 /* BitcoinDevKit.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

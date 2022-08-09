@@ -1,7 +1,7 @@
 {
   "name": "rn-bdk",
   "version": "0.1.0",
-  "description": "test",
+  "description": "Bitcoin Dev Kit for React Native",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
   "types": "lib/typescript/index.d.ts",
@@ -28,7 +28,8 @@
     "prepare": "bob build",
     "release": "release-it",
     "example": "yarn --cwd example",
-    "bootstrap": "yarn example && yarn && yarn example pods"
+    "bootstrap": "yarn example && yarn && yarn example pods",
+    "postinstall": "node ./scripts/installer.js"
   },
   "keywords": [
     "react-native",
@@ -147,5 +148,10 @@
         }
       ]
     ]
+  },
+  "dependencies": {
+    "adm-zip": "^0.5.9",
+    "is_js": "^0.9.0",
+    "request": "^2.88.2"
   }
 }
