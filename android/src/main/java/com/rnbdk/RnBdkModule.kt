@@ -35,13 +35,6 @@ class RnBdkModule(reactContext: ReactApplicationContext) :
     return "RnBdk"
   }
 
-  // Example method
-  // See https://reactnative.dev/docs/native-modules-android
-  @ReactMethod
-  fun multiply(a: Int, b: Int, promise: Promise) {
-    promise.resolve(a * b)
-  }
-
   @ReactMethod
   fun _generateExtendedKey(network: String, wordCount: Int, password: String, promise: Promise) {
     try {
