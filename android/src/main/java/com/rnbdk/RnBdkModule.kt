@@ -87,7 +87,7 @@ class RnBdkModule(reactContext: ReactApplicationContext) :
       response["xprv"] = keysInfo.xprv
       promise.resolve(Arguments.makeNativeMap(response))
     } catch (error: Throwable) {
-      return promise.reject("Generate Mnemonic Error", error.message, error)
+      return promise.reject("Generate Extended Key Error", error.message, error)
     }
   }
 
@@ -101,7 +101,7 @@ class RnBdkModule(reactContext: ReactApplicationContext) :
       response["xprv"] = key.xprv
       promise.resolve(Arguments.makeNativeMap(response))
     } catch (error: Throwable) {
-      return promise.reject("Generate Mnemonic Error", error.message, error)
+      return promise.reject("Restore Extended Key Error", error.message, error)
     }
   }
 
