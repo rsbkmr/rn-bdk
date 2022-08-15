@@ -150,8 +150,8 @@ export async function sync(): Promise<void> {
 }
 
 export async function setBlockchain(args: {
-  type: BlockchainType;
-  url: string;
+  type?: BlockchainType;
+  url?: string;
 }): Promise<void> {
   try {
     const {
