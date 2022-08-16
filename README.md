@@ -36,6 +36,7 @@ const key = await bdk.restoreExtendedKey({
 // create descriptor
 const descriptor = bdk.createDescriptor({{ xprv: key.xprv }})
 
+// create wallet
 await bdk.createWallet({
   descriptor: bdk.createDescriptor({ xprv: key.xprv }),
   changeDescriptor: bdk.createDescriptor({
