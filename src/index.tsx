@@ -27,7 +27,7 @@ const RnBdk = NativeModules.RnBdk
     );
 
 class BitcoinDevKit {
-  generateExtendedKey(args: {
+  async generateExtendedKey(args: {
     network?: Network;
     wordCount?: WordCount;
     password?: string;
